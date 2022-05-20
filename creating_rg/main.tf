@@ -1,3 +1,13 @@
+terraform {
+  cloud {
+    organization = "hashicorpcloud-learn"
+
+    workspaces {
+      name = "datasource-wrokspace"
+    }
+  }
+}
+
 provider "azurerm" {
     features {
       
