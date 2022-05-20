@@ -1,5 +1,5 @@
 data "azurerm_resource_group" "main" {
-  name = "data_soruce-rg"
+  name = "data_source-rg"
   
 }
 
